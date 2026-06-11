@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: 'Inter', sans-serif;
+}
+
+html, body {
+  min-height: 100%;
+  background: #090909;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(248, 68, 100, 0.35);
+}
+
+.bg-glass {
+  background: rgba(14, 14, 14, 0.72);
+  backdrop-filter: blur(16px);
+}
+
+.card-glow {
+  box-shadow: 0 20px 70px rgba(248, 68, 100, 0.15);
+}
